@@ -663,3 +663,30 @@ img {
 .header-container .div-container {
     padding: 0;
 }
+
+/*оформление иконок и картинок*/
+
+.list-item::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--secondary-white-color);
+}
+
+.list-item:nth-child(1)::before {
+    background-image: url(../images/antenna_1.svg);
+}
+
+.list-item:nth-child(2)::before {
+    background-image: url(../images/clock_1.svg);
+}
+
+.list-item:nth-child(3)::before {
+    background-image: url(../images/diagram_1.svg);
+}
+
+.list-item:nth-child(4)::before {
+    background-image: url(../images/astronaut_1.svg);
+}
