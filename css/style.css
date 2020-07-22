@@ -716,25 +716,17 @@ img {
     cursor: pointer;
 }
 
+.podval-link:not(:last-child) {
+    margin-right: 10px;
+}
+
 .podval-icon:hover,
 .podval-icon:focus {
     background-color: var(--accent-color);
 }
 
-.inst-icon {
-    background-image: url(../images/podval/instagram.svg);
-}
-
-.twit-icon {
-    background-image: url(../images/podval/twitter.svg);
-}
-
-.face-icon  {
-    background-image: url(../images/podval/twitter.svg);
-}
-
-.link-icon {
-    background-image: url(../images/podval/linkedin.svg);
+.podval-icon-item-svg {
+    fill: var(--primary-white-color);
 }
 
 .header-container {
@@ -791,11 +783,18 @@ img {
     fill: #AFB1B8;
 }
 
-
 .icon-client:hover .client-icon-logo,
 .icon-client:focus .client-icon-logo {
     fill: var(--accent-color);
 }
+.client-icon:focus .icon-client {
+    border-color: var(--accent-color);
+}
+
+.client-icon:focus .client-icon-logo {
+    fill: var(--accent-color);
+}
+
 
 .mail-tel-text:hover .pages-adress,
 .mail-tel-text:focus .pages-adress {
