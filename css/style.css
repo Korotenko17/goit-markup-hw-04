@@ -476,6 +476,10 @@ img {
     height: 90px;
 }
 
+.icon-client:hover {
+    border-color: var(--accent-color);
+}
+
 .chem-mi-zanimaemsa .link:not(:last-child) {
     margin-right: 30px;
 }
@@ -603,9 +607,9 @@ img {
     display: flex;
 }
 
-.social-link-item {
+/* .social-link-item {
     padding: 12px;
-}
+} */
 
 .social-link-item:not(:last-child) {
     margin-right: 10px;
@@ -756,4 +760,36 @@ img {
     height: 4px;
     content: "";
     margin-top: 32px;
+}
+
+.social-icon {
+    display: block;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.social-icon:hover {
+    background-color: var(--accent-color);
+} 
+
+.icon {
+    fill: #AFB1B8;
+    
+}
+
+.icon:hover {
+    fill: var(--primary-white-color);
+}
+
+
+.client-icon-logo {
+    fill: #AFB1B8;
+
+}
+
+.client-icon-logo:hover {
+    fill: var(--accent-color);
 }
