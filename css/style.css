@@ -476,10 +476,6 @@ img {
     height: 90px;
 }
 
-.icon-client:hover {
-    border-color: var(--accent-color);
-}
-
 .chem-mi-zanimaemsa .link:not(:last-child) {
     margin-right: 30px;
 }
@@ -720,7 +716,8 @@ img {
     cursor: pointer;
 }
 
-.podval-icon:hover {
+.podval-icon:hover,
+.podval-icon:focus {
     background-color: var(--accent-color);
 }
 
@@ -771,25 +768,39 @@ img {
     cursor: pointer;
 }
 
-.social-icon:hover {
+.social-link-item:hover .social-icon,
+.social-icon:focus  {
     background-color: var(--accent-color);
+}
+
+.social-link-item:hover .icon,
+.social-icon:focus .icon {
+    fill: var(--primary-white-color);
 } 
 
 .icon {
     fill: #AFB1B8;
-    
 }
 
-.icon:hover {
-    fill: var(--primary-white-color);
+.icon-client:hover,
+.icon-client:focus {
+    border-color: var(--accent-color);
 }
-
 
 .client-icon-logo {
     fill: #AFB1B8;
-
 }
 
-.client-icon-logo:hover {
+
+.icon-client:hover .client-icon-logo,
+.icon-client:focus .client-icon-logo {
     fill: var(--accent-color);
 }
+
+.mail-tel-text:hover .pages-adress,
+.mail-tel-text:focus .pages-adress {
+    fill: var(--accent-color);
+}
+
+
+
