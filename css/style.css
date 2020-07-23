@@ -62,7 +62,11 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-title-color);
+}
 
+.mail-tel-text {
+    display: flex;
+    align-items: center;
 }
 
 .link-nav:hover, 
@@ -535,21 +539,34 @@ img {
 }
 
 .flex-element-item {
+    width: 370px;
     padding-top: 20px;
-    padding-right: 24px;
+    padding-right: 25px;
     padding-bottom: 20px;
-    padding-left: 24px;
+    padding-left: 25px;
 }
 
-.flex-element:hover {
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-box-shadow: 1px 4px 6px
- rgba(0, 0, 0, 0.16), 
-0px 4px 4px rgba(0, 0, 0, 0.06), 
-0px 1px 1px rgba(0, 0, 0, 0.12);
-cursor: pointer;
+.flex-element:hover  {
+    background: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 1px 4px 6px
+    rgba(0, 0, 0, 0.16), 
+    0px 4px 4px rgba(0, 0, 0, 0.06), 
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+
+.focus-item-div {
+    width: 370px;
+}
+.focus-item:focus .focus-item-div {
+    background: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 1px 4px 6px
+    rgba(0, 0, 0, 0.16), 
+    0px 4px 4px rgba(0, 0, 0, 0.06), 
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
 }
 
 .flex-element:nth-child(3n) {
@@ -782,12 +799,10 @@ cursor: pointer;
     fill: var(--accent-color);
 }
 
-
 .mail-tel-text:hover .pages-adress,
 .mail-tel-text:focus .pages-adress {
     fill: var(--accent-color);
 }
-
 
 .tel-container {
     margin-top: auto;
