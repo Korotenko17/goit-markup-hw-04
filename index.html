@@ -14,7 +14,7 @@
    
      <header >
          <div class="header-container">
-            <div class="div-container viravnivanie">
+            <div class="div-container">
                 <nav class="nav-container">
                     <a class="link" href="./index.html" aria-label="Логотип"> 
                         <p class="logo-container" lang="en"><span class="logo-header-web">Web</span><span class="logo-header-studio">Studio</span></p>
@@ -68,22 +68,42 @@
         
         <section>
             <div class="o-nas div-container">
-                <div class="otstup-o-nas"></div>
+                <div class="otstup-o-nas">
                     <h2 hidden>О нас</h2>
                     <ul class="link container">
-                        <li class="link list otstup-link list-item">
+                        <li class="link list otstup-link">
+                            <span class="list-bg">
+                                <svg width="70px" height="70px">
+                                    <use href="./images/sprite.svg#icon-antenna"></use>
+                                </svg>
+                            </span>
                             <h3 class="o-nas-title">Внимание к деталям</h3>
                             <p class="o-nas-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                         </li>
-                        <li class="link list otstup-link list-item">
+                        <li class="link list otstup-link">
+                            <span class="list-bg">
+                                <svg width="70px" height="70px">
+                                    <use href="./images/sprite.svg#icon-clock"></use>
+                                </svg>
+                            </span>
                             <h3 class="o-nas-title">Пунктуальность</h3>
                             <p class="o-nas-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                         </li>
-                        <li class="link list otstup-link list-item">
+                        <li class="link list otstup-link">
+                            <span class="list-bg">
+                                <svg width="70px" height="70px">
+                                    <use href="./images/sprite.svg#icon-diagram"></use>
+                                </svg>
+                            </span>
                             <h3 class="o-nas-title">Планирование</h3>
                             <p class="o-nas-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                         </li>
-                        <li class="link list otstup-link list-item">
+                        <li class="link list otstup-link">
+                            <span class="list-bg">
+                                <svg width="70px" height="70px">
+                                    <use href="./images/sprite.svg#icon-astronaut"></use>
+                                </svg>
+                            </span>
                             <h3 class="o-nas-title">Современные технологии</h3>
                             <p class="o-nas-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                         </li>
@@ -97,7 +117,7 @@
         
         <section>
             <div class="div-container otstup-chem-mi"> 
-                <div class="chem-mi-zanimaemsa"></div>
+                <div class="chem-mi-zanimaemsa">
                     <h2 class="title">Чем мы занимаемся</h2>
                     <ul class="link container">
                         <li class="link list otstup-link"> 
@@ -353,28 +373,28 @@
             <div class="join">
                 <b class="podval-join">присоединяйтесь</b>
                 <ul class="link otstup-icon">
-                    <li class="link list podval-link" aria-label="инстаграмм">
+                    <li class="link list podval-link">
                         <a class="podval-icon" href="">
                             <svg class="podval-icon-item-svg" width="20px" height="20px">
                                 <use href="./images/sprite.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="link list podval-link" aria-label="твиттер">
+                    <li class="link list podval-link">
                         <a class="podval-icon" href="">
                             <svg class="podval-icon-item-svg" width="20px" height="20px">
                                 <use href="./images/sprite.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="link list podval-link" aria-label="фуйсбук"> 
+                    <li class="link list podval-link"> 
                         <a class="podval-icon" href="">
                             <svg class="podval-icon-item-svg" width="20px" height="20px">
                                 <use href="./images/sprite.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="link list podval-link" aria-label="линкедин">
+                    <li class="link list podval-link">
                         <a class="podval-icon" href="">
                             <svg class="podval-icon-item-svg" width="20px" height="20px">
                                 <use href="./images/sprite.svg#icon-linkedin"></use>
@@ -392,7 +412,11 @@
                             name="email"
                             placeholder="E-mail"
                         />
-                        <button class="button" type="submit">Подписаться</button>
+                        <button class="button button-send" type="submit">Подписаться
+                            <svg class="send-icon" width="24px" height="24px">
+                                <use href="./images/sprite.svg#icon-send"></use>
+                            </svg>
+                        </button>
                     </div>
             </div>
         </div>
