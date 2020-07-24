@@ -67,6 +67,9 @@ body {
 .mail-tel-text {
     display: flex;
     align-items: center;
+}
+
+.contacts-container .mail-tel-text {
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -76,7 +79,7 @@ body {
 .mail-tel-text:hover,
 .mail-tel-text:focus,
 .adress-podval:hover,
-.adress-podval:focus {
+.podval-adress-link:focus .adress-podval{
     color: var(--accent-color);
 }
 
