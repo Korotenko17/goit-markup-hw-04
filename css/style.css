@@ -67,6 +67,8 @@ body {
 .mail-tel-text {
     display: flex;
     align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .link-nav:hover, 
@@ -350,11 +352,20 @@ img {
 }
 
 .studio {
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin-right: 50px;
 }
 
 .portfolio {
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin-right: 43px;
+}
+
+.contant-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
@@ -806,11 +817,6 @@ img {
 .mail-tel-text:hover .pages-adress,
 .mail-tel-text:focus .pages-adress {
     fill: var(--accent-color);
-}
-
-.tel-container {
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
 .button-send {
