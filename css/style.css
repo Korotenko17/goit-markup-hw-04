@@ -557,11 +557,10 @@ img {
 }
 
 .flex-element-item {
-    width: 370px;
     padding-top: 20px;
-    padding-right: 25px;
+    padding-right: 24px;
     padding-bottom: 20px;
-    padding-left: 25px;
+    padding-left: 24px;
 }
 
 .flex-element:hover  {
@@ -574,9 +573,6 @@ img {
     cursor: pointer;
 }
 
-.focus-item-div {
-    width: 370px;
-}
 .focus-item:focus .focus-item-div {
     background: #FFFFFF;
     box-sizing: border-box;
